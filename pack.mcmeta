@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": {
+      "text": "Claim Shovel Recipe for ClaimMod",
+      "color": "gold"
+    },
+    "min_format": [75, 0],
+    "max_format": [100, 0]
+  }
+}
