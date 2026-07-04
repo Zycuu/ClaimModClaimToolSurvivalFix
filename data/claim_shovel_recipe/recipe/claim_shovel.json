@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "claimmod_claim_tool",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:golden_shovel"
+    }
+  ],
+  "result": {
+    "id": "minecraft:golden_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Claim Shovel",
+        "color": "gold",
+        "italic": false
+      },
+      "minecraft:custom_model_data": {
+        "floats": [1999.0]
+      }
+    }
+  }
+}
