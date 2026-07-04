@@ -55,6 +55,17 @@ claim_tool_item:
 
 If the server owner changes ClaimMod's `claim_tool` or `claim_tool_item.custom_model_data`, update the recipe output to match.
 
+The recipe uses the newer string ingredient format:
+
+```json
+"ingredients": [
+  "minecraft:paper",
+  "minecraft:golden_shovel"
+]
+```
+
+This avoids reload errors where old ingredient objects are parsed as an empty ingredient list.
+
 ## Why this exists
 
 ClaimMod already supports a special shovel item, but normal players need a survival way to obtain it. This pack makes the default Claim Shovel craftable with Paper and a Golden Shovel.
