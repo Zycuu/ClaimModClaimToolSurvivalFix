@@ -3,12 +3,8 @@
   "category": "equipment",
   "group": "claimmod_claim_tool",
   "ingredients": [
-    {
-      "item": "minecraft:paper"
-    },
-    {
-      "item": "minecraft:golden_shovel"
-    }
+    "minecraft:paper",
+    "minecraft:golden_shovel"
   ],
   "result": {
     "id": "minecraft:golden_shovel",
